@@ -1,0 +1,82 @@
+.price-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.price-item:hover {
+    margin-top: -20px;
+    background-color: #001c3d;
+}
+
+#aatracao{
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#preco{
+    color: white!important;
+}
+
+#bting:hover{
+    background-color: #001c3d;;
+    border-color: #001c3d;;
+}
+
+/* contador */
+
+/* general styling */
+
+  .container {
+    height: 100%;
+    margin: 0;
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 0.5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+  
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+  
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+  
